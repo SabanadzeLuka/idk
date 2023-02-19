@@ -1,11 +1,18 @@
 body{
     font-family: 'Source Code Pro', monospace;
+    background-color: black;
 }
 .introduction{
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/background.jpg);
     background-position: center;
     background-size: cover;
+}
+.mt-200{
+    margin-top: 200px;
+}
+.mt-100{
+    margin-top: 100px;
 }
 .section{
     background-color: black;
@@ -72,17 +79,119 @@ p{
     transform: rotateY(-30deg);
 }
 .idepicture{
-    perspective: 1500px;
+    perspective: 2000px;
 }
 #ide{
     width: 100%;
-    transform: rotateX(65deg);
+    transform: rotate3d(0, 1, 0, 40deg)
 }
 .features h4{
     font-size: 35px;
     color: white;
     font-weight: bold;
+    padding: 10px;
+    
 }
 .features p{
+    padding: 10px;
     color: #8b8b8b;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #D4145A, #FBB03B) 1;
+}
+.btnn{
+    border: 2px solid;
+    border-image: linear-gradient(to right, #D4145A, #FBB03B) 1;
+    background: transparent;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+.btnn:hover{
+    border: 2px solid white;
+}
+.leftreport{
+    padding-top: 60px;
+    padding-bottom: 410px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #D4145A, #FBB03B) 1;
+}
+.leftreport h2{
+    color: white;
+    font-weight: bold;
+}
+.leftreport h5{
+    color: #8b8b8b;
+}
+.rightreport{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #D4145A, #FBB03B) 1;
+}
+.rightreport p{
+    padding-top: 20px;
+    color: #8b8b8b;
+}
+.review h2{
+    color: white;
+}
+.review p{
+    padding-top: 20px;
+    color: #8b8b8b;
+}
+.firstr p{
+    padding-top: 135px;
+}
+.secondr p{
+    padding-top: 58px;
+}
+.headline h2{
+    color: white;
+    font-weight: bold;
+    font-size: 35Spx;
+}
+.headline p{
+    color: #8b8b8b;
+}
+.pricebox{
+    width: 450px;
+    height: 430px;
+    background-color: #0d0f12;
+    border: 1px solid #45505b;
+    border-radius: 8px;
+}
+.priceheader{
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #D4145A, #FBB03B) 1;
+    
+}
+.priceheader h4{
+    color: white;
+    padding-top: 30px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.dollar{
+    color: #8b8b8b;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+}
+.pricenumber h4{
+    font-size: 40px;
+}
+.category{
+    position: relative;
+    bottom: 18px;
+    font-size: 12px;
+    padding-left: 10px;
+    color: #8b8b8b;
+}
+.secondcategory{
+    position: relative;
+    top: 20px;
+    right: 85px;
 }

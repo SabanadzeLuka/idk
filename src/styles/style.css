@@ -2,6 +2,18 @@ body{
     font-family: 'Source Code Pro', monospace;
     background-color: black;
 }
+.navbar-brand:hover{
+    position: relative;
+    bottom: 5px;
+}
+.btn{
+    border-color: orange;
+    color: orange;
+}
+.btn:hover{
+    border-color: white;
+    background-color: transparent;
+}
 .introduction{
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/background.jpg);
@@ -157,7 +169,7 @@ p{
 }
 .pricebox{
     width: 450px;
-    height: 430px;
+    height: 460px;
     background-color: #0d0f12;
     border: 1px solid #45505b;
     border-radius: 8px;
@@ -190,8 +202,121 @@ p{
     padding-left: 10px;
     color: #8b8b8b;
 }
+
 .secondcategory{
     position: relative;
     top: 20px;
     right: 85px;
 }
+.featureslist{
+    margin-top: 15px;
+}
+.fa-solid{
+    color: rgb(44, 40, 61);
+    margin-right: 10px;
+}
+.featureslist ul{
+    list-style: none;
+    padding-left: 0;
+}
+.featureslist ul li{
+    color: white;
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.featuresbutton{
+    width: 270px;
+    padding-left: 60px;
+}
+.featuresbutton .btnn{
+    width: 270px;
+}
+.business{
+    border: 1px solid;
+    border-image: linear-gradient(to right, #D4145A, #FBB03B) 1;
+    border-radius: 8px;
+}
+.business:hover{
+    -webkit-box-shadow: 4px 1px 91px -9px rgba(251, 138, 59, 0.5);
+-moz-box-shadow: 4px 1px 91px -9px rgba(251, 138, 59, 0.5);
+box-shadow: 4px 1px 91px -9px rgba(251, 138, 59, 0.5);
+}
+.new{
+    border: 1px solid;
+    border-image: linear-gradient(to right, #D4145A, #FBB03B) 1;
+    background: transparent;
+    color: white;
+    font-weight: bold; 
+    font-size: 15px;
+}
+.faqheader h4{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.quest h2{
+    color: white;
+}
+.quest p{
+    color: #8b8b8b;
+    border-bottom:1px solid;
+    border-image: linear-gradient(to right, #D4145A, #FBB03B) 1;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+footer{
+    background-color: #0D0F12;
+    height: 450px;
+}
+.subscirebox h2{
+    color: white;
+    padding-top: 65px;
+    font-size: 30px;
+}
+.subscirebox h5{
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+}
+.subscirebox p{
+    color: #8b8b8b;
+
+}
+.footerbox{
+    padding-top: 72px;
+}
+.footerbox h2{
+    color: white;
+    font-size: 18px;
+}
+.footerbox ul{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 40px;
+}
+.footerbox ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 35px;
+}
+.headfooter{
+    border-bottom: 1px solid white;
+}
+.bottomfooterleft{
+    padding-top: 40px;
+}
+.bottomfooterleft p{
+    font-size: 12px;
+}
+.d-flex a{
+    text-decoration: none;
+}
+.fa-brands{
+    color: rgb(44, 40, 61);
+}
+.bottomfooterright{
+    padding-top: 38px;
+}
+
